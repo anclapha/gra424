@@ -28,3 +28,25 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+.black-square {
+  width: 50%;
+  height: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.white-square {
+  width: 40%;
+  height: 40%;
+  background-color: white;
+}
+
